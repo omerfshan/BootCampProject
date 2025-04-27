@@ -1,0 +1,11 @@
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Business.deps.json
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Business.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Business.pdb
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.csproj.CoreCompileInputs.cache
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/refint/Business.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.pdb
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/ref/Business.dll
