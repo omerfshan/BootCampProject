@@ -17,3 +17,4 @@
 /Users/omerfaruksahan/projects/BootCampProject/DataAccess/obj/Debug/net9.0/DataAccess.pdb
 /Users/omerfaruksahan/projects/BootCampProject/DataAccess/obj/Debug/net9.0/DataAccess.genruntimeconfig.cache
 /Users/omerfaruksahan/projects/BootCampProject/DataAccess/obj/Debug/net9.0/ref/DataAccess.dll
+/Users/omerfaruksahan/projects/BootCampProject/DataAccess/obj/Debug/net9.0/DataAccess.sourcelink.json

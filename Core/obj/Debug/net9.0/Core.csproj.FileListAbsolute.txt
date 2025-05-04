@@ -10,3 +10,4 @@
 /Users/omerfaruksahan/projects/BootCampProject/Core/obj/Debug/net9.0/refint/Core.dll
 /Users/omerfaruksahan/projects/BootCampProject/Core/obj/Debug/net9.0/Core.pdb
 /Users/omerfaruksahan/projects/BootCampProject/Core/obj/Debug/net9.0/ref/Core.dll
+/Users/omerfaruksahan/projects/BootCampProject/Core/obj/Debug/net9.0/Core.sourcelink.json

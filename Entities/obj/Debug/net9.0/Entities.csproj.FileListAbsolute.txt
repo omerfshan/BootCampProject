@@ -13,3 +13,4 @@
 /Users/omerfaruksahan/projects/BootCampProject/Entities/obj/Debug/net9.0/refint/Entities.dll
 /Users/omerfaruksahan/projects/BootCampProject/Entities/obj/Debug/net9.0/Entities.pdb
 /Users/omerfaruksahan/projects/BootCampProject/Entities/obj/Debug/net9.0/ref/Entities.dll
+/Users/omerfaruksahan/projects/BootCampProject/Entities/obj/Debug/net9.0/Entities.sourcelink.json

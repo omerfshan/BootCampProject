@@ -162,3 +162,4 @@
 /Users/omerfaruksahan/projects/BootCampProject/WebAPI/obj/Debug/net9.0/WebAPI.pdb
 /Users/omerfaruksahan/projects/BootCampProject/WebAPI/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache
 /Users/omerfaruksahan/projects/BootCampProject/WebAPI/obj/Debug/net9.0/ref/WebAPI.dll
+/Users/omerfaruksahan/projects/BootCampProject/WebAPI/obj/Debug/net9.0/WebAPI.sourcelink.json
