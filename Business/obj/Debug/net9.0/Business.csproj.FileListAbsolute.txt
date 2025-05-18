@@ -9,3 +9,12 @@
 /Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/refint/Business.dll
 /Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.pdb
 /Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/ref/Business.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.sourcelink.json
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.csproj.AssemblyReference.cache
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Core.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/DataAccess.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Entities.dll
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Core.pdb
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/Entities.pdb
+/Users/omerfaruksahan/projects/BootCampProject/Business/bin/Debug/net9.0/DataAccess.pdb
+/Users/omerfaruksahan/projects/BootCampProject/Business/obj/Debug/net9.0/Business.csproj.Up2Date

@@ -1,13 +1,13 @@
-using Core.Entities;
 using System.Linq.Expressions;
+using Core.Entities;
 
 namespace Core.DataAccess;
 
-public interface IRepository<T> where T : class, IEntity, new()
+public interface IRepository<TEntity> where TEntity : class, IEntity, new()
 {
-    T Get(Expression<Func<T, bool>> filter);
-    IList<T> GetList(Expression<Func<T, bool>>? filter = null);
-    void Add(T entity);
-    void Update(T entity);
-    void Delete(T entity);
+    TEntity Get(Expression<Func<TEntity, bool>> filter);
+    IList<TEntity> GetList(Expression<Func<TEntity, bool>>? filter = null);
+    void Add(TEntity entity);
+    void Update(TEntity entity);
+    void Delete(TEntity entity);
 } 

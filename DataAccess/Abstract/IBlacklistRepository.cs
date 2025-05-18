@@ -3,6 +3,6 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract;
 
-public interface IBlacklistRepository : IRepository<Blacklist>
+public interface IBlacklistRepository : IAsyncRepository<Blacklist>, IRepository<Blacklist>
 {
 } 

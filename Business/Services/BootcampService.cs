@@ -2,6 +2,8 @@ using AutoMapper;
 using Business.DTOs;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.Enums;
+using Business.Rules;
 
 namespace Business.Services;
 
@@ -9,11 +11,16 @@ public class BootcampService : IBootcampService
 {
     private readonly IBootcampRepository _bootcampRepository;
     private readonly IMapper _mapper;
+    private readonly BootcampBusinessRules _businessRules;
 
-    public BootcampService(IBootcampRepository bootcampRepository, IMapper mapper)
+    public BootcampService(
+        IBootcampRepository bootcampRepository,
+        IMapper mapper,
+        BootcampBusinessRules businessRules)
     {
         _bootcampRepository = bootcampRepository;
         _mapper = mapper;
+        _businessRules = businessRules;
     }
 
     public async Task<BootcampDto> GetByIdAsync(int id)
@@ -30,6 +37,10 @@ public class BootcampService : IBootcampService
 
     public async Task<BootcampDto> CreateAsync(BootcampCreateDto createDto)
     {
+        await _businessRules.CheckIfNameExists(createDto.Name);
+        await _businessRules.CheckIfInstructorExists(createDto.InstructorId);
+        _businessRules.CheckIfDatesAreValid(createDto.StartDate, createDto.EndDate);
+
         var bootcamp = _mapper.Map<Bootcamp>(createDto);
         bootcamp.State = BootcampState.PREPARING;
         await _bootcampRepository.AddAsync(bootcamp);

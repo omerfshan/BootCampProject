@@ -3,6 +3,6 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract;
 
-public interface IInstructorRepository : IRepository<Instructor>
+public interface IInstructorRepository : IAsyncRepository<Instructor>, IRepository<Instructor>
 {
 } 

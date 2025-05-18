@@ -52,7 +52,7 @@ public class EfRepositoryBase<TEntity, TContext> : IAsyncRepository<TEntity>, IR
         return await context.Set<TEntity>().SingleOrDefaultAsync(filter);
     }
 
-    public IList<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null)
+    public IList<TEntity> GetList(Expression<Func<TEntity, bool>>? filter = null)
     {
         using var context = new TContext();
         return filter == null
@@ -60,7 +60,7 @@ public class EfRepositoryBase<TEntity, TContext> : IAsyncRepository<TEntity>, IR
             : context.Set<TEntity>().Where(filter).ToList();
     }
 
-    public async Task<IList<TEntity>> GetListAsync(Expression<Func<TEntity, bool>> filter = null)
+    public async Task<IList<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? filter = null)
     {
         using var context = new TContext();
         return filter == null

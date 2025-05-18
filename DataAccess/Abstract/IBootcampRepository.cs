@@ -3,6 +3,6 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract;
 
-public interface IBootcampRepository : IRepository<Bootcamp>
+public interface IBootcampRepository : IAsyncRepository<Bootcamp>, IRepository<Bootcamp>
 {
 } 
